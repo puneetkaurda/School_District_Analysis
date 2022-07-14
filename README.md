@@ -127,7 +127,8 @@ School Type Summary
 
 
 In reviewing the last summary on School Types, this data change also affected the passing percentages that compared charter and district schools. Fortunately, it did not affect the average scores for these two school types. Removing the scores resulted in a reduction in charter school's passing percentages. Before the data change, charter schools had very high passing percentages: 94% passing math, 97% passing reading, 90% overall passing. After the data change, charter schools now have a 90% passing math, 93% passing reading, 87% overall passing. On the plus side, these rates are still far superior when compared to district schools.
-Resources
+
+##Resources
 Data Source: PyCitySchools_Challenge_testing
 Software: Python, Visual Studio Code, Anaconda, Jupyter Notebook, Pandas
 >>>>>>> fac93618b1f55fd02b4e4b0bb255747cd1045461
