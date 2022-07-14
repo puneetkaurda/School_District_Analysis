@@ -3,26 +3,21 @@
 Performing an analysis using school and student data to inform a school district on their budget and priorities.
 
 ##Challenge
-
+Deliverable 1: Replace Ninth-Grade Reading and Math Scores
 The school district discovered that the standardized test scores for ninth grade students at Thomas High School were incorrect, and they requested for updated data summaries. After further discussion, it was best to only replace the ninth grade math and reading scores at Thomas High School while keeping all other data associated with this student group intact.
 
 Both math and reading scores were replaced with "NaN", which represents a "Not-a-Number" value, for 461 student records. Although this may seem like a significant number, these score replacements did not alter data summaries tremendously overall.
-Overview of Project
-List of deliverables for the analysis of the school district:
+1. The code snippet provided in Step 1 to import the NumPy module:
+<img width="1008" alt="Screen Shot 2022-07-13 at 9 22 58 PM" src="https://user-images.githubusercontent.com/107584891/178891277-bdca4867-b437-455f-82a0-bba29d39bfd6.png">
+2. The code snippet provided in Step 2 for the Pandas loc method.
+<img width="1007" alt="Screen Shot 2022-07-13 at 9 26 17 PM" src="https://user-images.githubusercontent.com/107584891/178891614-f1290fbc-db18-4c07-bc61-cb90f0a34510.png">
+3. ninth-grade reading scores at Thomas High School usiing loc method.
+<img width="1004" alt="Screen Shot 2022-07-13 at 9 27 25 PM" src="https://user-images.githubusercontent.com/107584891/178891742-deabeefd-4d2f-4a3f-b500-38dd1d6a9af4.png">
+4. student data for NaN's
+<img width="1008" alt="Screen Shot 2022-07-13 at 9 29 52 PM" src="https://user-images.githubusercontent.com/107584891/178891967-bfca74af-fbf0-4a41-854a-86aec055c38a.png">
 
-A high-level snapshot of the district's key metrics
-An overview of the key metrics for each school
-Tables presenting each of the following metrics:
-Top 5 and bottom 5 performing schools, based on the overall passing rate
-The average math score received by students in each grade level at each school
-The average reading score received by students in each grade level at each school
-School performance based on the budget per student
-School performance based on the school size
-School performance based on the type of school
-Resources
-Data Source: PyCitySchools.ipynb file
-Software: Python, Visual Studio Code, Anaconda, Jupyter Notebook, Pandas
-Deliverable 1: Replace Ninth-Grade Reading and Math Scores
+
+# Repeat the School District Analysis 
 
 ##School District Summary
 
@@ -92,4 +87,7 @@ School Type Summary
 
 
 In reviewing the last summary on School Types, this data change also affected the passing percentages that compared charter and district schools. Fortunately, it did not affect the average scores for these two school types. Removing the scores resulted in a reduction in charter school's passing percentages. Before the data change, charter schools had very high passing percentages: 94% passing math, 97% passing reading, 90% overall passing. After the data change, charter schools now have a 90% passing math, 93% passing reading, 87% overall passing. On the plus side, these rates are still far superior when compared to district schools.
+Resources
+Data Source: PyCitySchools_Challenge_testing
+Software: Python, Visual Studio Code, Anaconda, Jupyter Notebook, Pandas
 
